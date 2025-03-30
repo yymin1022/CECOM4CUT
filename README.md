@@ -39,6 +39,10 @@ ESP32 기기의 25번 및 32번 Pin OUT을 각각 RPI의 24번, 23번 GPIO에 �
 RFID Tag를 통한 Trigger 사용은 `ino` 파일 내 주석을 참조해, Pin 설정과 카드 데이터를 구성해주세요.<br/>
 Arduino IDE에서 [RFID Library](https://github.com/miguelbalboa/rfid)를 설치해야 정상적으로 RFID Tag 장치가 동작합니다.
 
+### Image Server Installation
+촬영된 결과 이미지를 업로드하고, 다운로드할 수 있도록 서버를 제공하려면 [CECOM4CUT_Server](https://github.com/yymin1022/cecom4cut_server) 레포의 프로젝트를 기반으로 직접 구성해주세요.<br/>
+이후, 구성된 서버의 URL을 `Image_Upload` 디렉토리 내 스크립트에 업데이트하면 동작합니다.
+
 ## Teams
 
 | [유용민](https://github.com/yymin1022) | [서유빈](https://github.com/viiniu) |
